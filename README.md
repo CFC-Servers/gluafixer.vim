@@ -18,6 +18,8 @@ sudo mv glualint /usr/bin/;
 sudo chown root:root /usr/bin/glualint;
 ```
 
+You can find more instructions on the [GLuaFixer](https://github.com/FPtje/GLuaFixer) repo description.
+
 ### gluafixer.vim plugin
 Install using your favorite package manager, or use Vim's built-in package support:
 ```
