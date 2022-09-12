@@ -25,3 +25,8 @@ mkdir -p ~/.vim/pack/brandonsturgeon/start
 cd ~/.vim/pack/brandonsturgeon/start
 git clone https://github.com/CFC-Servers/gluafixer.vim.git
 ```
+
+## Configuration
+Because this plugin just calls `glualint`, it respects all of GLuaFixer's config options.
+
+You can read more about the individual options and config files on the [GLuaFixer repo](https://github.com/FPtje/GLuaFixer).
