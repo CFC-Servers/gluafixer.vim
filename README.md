@@ -1,9 +1,12 @@
 # gluafixer.vim
-ALE Linter for Gmod Lua.
+[ALE](https://github.com/dense-analysis/ale) Linter for Gmod Lua.
 
 Uses Falco's [GLuaFixer](https://github.com/FPtje/GLuaFixer)
 
 ## Installation
+
+### ALE
+Install the [ALE Vim plugin](https://github.com/dense-analysis/ale)
 
 ### GLuaFixer
 You'll need to have the GLuaFixer executable in your path somewhere.
