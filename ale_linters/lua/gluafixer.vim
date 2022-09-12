@@ -22,7 +22,7 @@ endfunction
 
 " Add GLuaFixer to Ale
 call ale#linter#Define('lua', {
-\     'name': 'GLualint',
+\     'name': 'GLuaFixer',
 \     'alias': ['glualint'],
 \     'executable': '/usr/bin/glualint',
 \     'command': '%e lint --stdin',
