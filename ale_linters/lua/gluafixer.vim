@@ -24,7 +24,7 @@ endfunction
 call ale#linter#Define('lua', {
 \     'name': 'GLuaFixer',
 \     'alias': ['glualint'],
-\     'executable': '/usr/bin/glualint',
+\     'executable': 'glualint',
 \     'command': '%e lint --stdin',
 \     'callback': 'Glualint_callback',
 \     'lint_file': 0,
